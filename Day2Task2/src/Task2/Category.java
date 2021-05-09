@@ -1,4 +1,4 @@
-package secondTask;
+package Task2;
 
 public class Category {
 	int id;
