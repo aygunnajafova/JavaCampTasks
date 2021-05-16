@@ -20,4 +20,5 @@ public class Instructor extends User {
 	public void setCourseCount(int courseCount) {
 		this.courseCount = courseCount;
 	}
+	
 }
