@@ -6,6 +6,9 @@ import Entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager {
 	private CustomerCheckService _customerCheckService;
+	public StarbucksCustomerManager(CustomerCheckService customerCheckService) {
+		this._customerCheckService = customerCheckService;
+	}
 
 	public void save(Customer customer) {
 		if (_customerCheckService.CheckIfRealPerson(customer)) {

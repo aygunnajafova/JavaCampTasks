@@ -6,11 +6,11 @@ import java.time.LocalDate;
 import Abstract.Entity;
 
 public class Customer implements Entity {
-	public int id;
-	public String firstName;
-	public String lastName;
-	public LocalDate dateOfBirth;
-	public String nationalityId;
+	private int id;
+	private String firstName;
+	private String lastName;
+	private LocalDate dateOfBirth;
+	private String nationalityId;
 	
 	public Customer(int id, String firstName, String lastName, LocalDate dateOfBirth, String nationalityId) {
 		super();
