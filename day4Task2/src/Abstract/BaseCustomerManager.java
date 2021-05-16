@@ -8,5 +8,5 @@ public abstract class BaseCustomerManager implements CustomerService {
 		System.out.println("Saved to db : " + customer.getFirstName());
 
 	}
-
+	
 }
